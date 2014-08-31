@@ -18,11 +18,11 @@ need for local development.
 
 ```json
 "require-dev": {
-    "panique/laravel-sass": "dev-master"
+    "panique/php-sass": "dev-master"
 }
 ```
 
-Install or update your Composer dependencies to add laravel-sass by doing `composer install` or `composer update`.
+Install or update your Composer dependencies to add php-sass by doing `composer install` or `composer update`.
 Composer automatically installs everything in require-dev by default.
 
 **IMPORTANT:** When you later deploy your application and don't want to install the require-dev stuff, then do
