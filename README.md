@@ -30,7 +30,7 @@ Composer automatically installs everything in require-dev by default.
 
 In your application, add this line into your `index.php` (or wherever you want to compile SASS to CSS).
 If you use this inside common frameworks, make sure you add this **before** the final application call, so in Laravel
-add it before `$app->run();` (so frameworks do stuff like `exit();` or caching, so the SASS compiler would never be
+add it before `$app->run();` (some frameworks do stuff like `exit();` or caching, so the SASS compiler would never be
 called).
 
 ```php
