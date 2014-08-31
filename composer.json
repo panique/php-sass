@@ -1,0 +1,26 @@
+{
+    "name": "panique/php-sass",
+    "type": "library",
+    "description": "Compiles your SASS .scss files to .css every time your run your app (in development)",
+    "keywords": ["sass", "scss", "css"],
+    "homepage": "https://github.com/panique/php-sass",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panique",
+            "homepage": "http://careers.stackoverflow.com/panique",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/panique/php-sass/issues",
+        "source": "https://github.com/panique/php-sass"
+    },
+    "autoload": {
+        "files": ["sass-compiler.php"]
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "leafo/scssphp": "v0.1.1"
+    }
+}
