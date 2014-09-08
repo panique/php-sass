@@ -1,5 +1,4 @@
-php-sass
-========
+# php-sass
 
 Automatic SASS-to-CSS compiling (while being in development, you'll for sure not do this in production).
 Every time you run your app (hitting index.php for example) php-sass will automatically compile all .scss files in your
