@@ -17,7 +17,7 @@ need for local development.
 
 ```json
 "require-dev": {
-    "panique/php-sass": "dev-master"
+    "panique/php-sass": "1.0"
 }
 ```
 
