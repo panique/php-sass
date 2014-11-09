@@ -41,6 +41,11 @@ path to your css folder. Make sure PHP can write into the css folder. For local 
 `sudo chmod -R 777 public/css` (when being in /var/www) is totally okay (remember, SASS compiling only happens locally,
 for production you'll deploy compiled .css files for sure).
 
+## To use the very latest features of SASS:
+
+Currently php-sass fetches v0.1.1 (August 2014) of *leafo/scssphp* as a compiler. For latest features you might want a 
+newer version, so have a look here https://github.com/leafo/scssphp/releases and edit the composer.json accordingly.
+
 ## [optional] Good way to use it only in development, not on production
 
 To prevent using the SASS compiler in production, use an environment switch. Nearly all framework have something like
