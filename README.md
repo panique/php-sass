@@ -96,8 +96,9 @@ scssphp supports the latest SCSS syntax (3.2.12).
 
 ## Other projects
 
-- https://github.com/panique/php-login
-- https://github.com/panique/php-mvc
+- https://github.com/panique/huge
+- https://github.com/panique/mini2
+- https://github.com/panique/mini
 - https://github.com/panique/php-long-polling
 - My blog DEV METAL: http://www.dev-metal.com
 
